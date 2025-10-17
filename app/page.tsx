@@ -2,8 +2,8 @@
 export default function Home() {
   return (
     <>
-      <div className="h-100% bg-[#DEDED1]">
-        <div className="flex flex-col p-5 rounded-2xl shadow-2xl px-10">
+      <div className="w-full h-full bg-[#DEDED1] overflow-x-hidden">
+        <div className="flex flex-col p-5 sm:px-10 rounded-2xl shadow-2xl box-border">
           <div className="mb-5">
             <hr className="pb-3" />
             <h1>Question 1</h1>
