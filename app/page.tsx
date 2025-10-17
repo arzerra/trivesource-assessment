@@ -254,7 +254,30 @@ export default function Home() {
               How might you escalate?
             </p>
             <p className="text-green-500">answer:</p>
-            <p></p>
+            <p className="pb-2">
+              First, I&apos;d acknowledge the report immediately and thank the
+              reporter for bringing the issue to our attention. Even before
+              confirming the problem, I&apos;d reassure them that we take all
+              security concerns seriously and are investigating the matter
+              promptly.
+            </p>
+            <p className="pb-2">
+              Next, I&apos;d begin by gathering details, checking logs,
+              reproducing the issue in a controlled environment, and reviewing
+              recent deployments or configuration changes that might relate to
+              the report. I&apos;d also coordinate with the appropriate internal
+              teams (such as engineering or security) to validate the claim and
+              assess potential impact.
+            </p>
+            <p className="pb-2">
+              If the issue seems legitimate and potentially severe, I&apos;d
+              escalate it through the proper channels, alerting the security
+              team, management, and possibly initiating our incident response
+              procedures. Throughout, I&apos;d maintain transparent and
+              professional communication with the reporter, letting them know
+              that the issue is under active review and that they&apos;ll
+              receive an update once we have verified the findings.
+            </p>
           </div>
         </div>
       </div>
