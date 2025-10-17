@@ -65,8 +65,8 @@ export default function Home() {
               based on feedback from customers
             </p>
             <p>
-              • Debug a customer's build using a programming language and
-              framework that you've never seen before
+              • Debug a customer&apos;s build using a programming language and
+              framework that you&apos;ve never seen before
             </p>
             <p>My 5 Least Activities:</p>
             <p>
@@ -76,8 +76,8 @@ export default function Home() {
             <p>• Develop a code example to share with a customer</p>
             <p>• Manage a Support team</p>
             <p>
-              • Debug a customer's build using a programming language and
-              framework that you've never seen before
+              • Debug a customer&apos;s build using a programming language and
+              framework that you&apos;ve never seen before
             </p>
             <p>
               • Join a Zoom call with a VIP customer you have been helping via
@@ -212,16 +212,17 @@ export default function Home() {
             <hr className="pb-3" />
             <h1>Question 9</h1>
             <p>
-              We understand you don't know anything about our internal
+              We understand you don&apos;t know anything about our internal
               procedures at this stage, but we want you to explain at a high
-              level how you'd react to this situation: You receive a report of a
-              severe security issue on www.netlify.com. You can't immediately
-              confirm the report, so what steps might you take to investigate or
-              substantiate the report? What might you say to the reporter, even
-              though we haven't confirmed their assertion yet, that will instill
-              confidence that our business is very concerned about security? You
-              believe there is a reasonable chance the report is correct and the
-              problem is very large and impactful. How might you escalate?
+              level how you&apos;d react to this situation: You receive a report
+              of a severe security issue on www.netlify.com. You can&apos;t
+              immediately confirm the report, so what steps might you take to
+              investigate or substantiate the report? What might you say to the
+              reporter, even though we haven&apos;t confirmed their assertion
+              yet, that will instill confidence that our business is very
+              concerned about security? You believe there is a reasonable chance
+              the report is correct and the problem is very large and impactful.
+              How might you escalate?
             </p>
             <p className="text-green-500">answer:</p>
             <p></p>
