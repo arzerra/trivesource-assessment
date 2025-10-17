@@ -198,11 +198,11 @@ export default function Home() {
               directory of my project and included the following configuration:
             </p>
             <p>
-              [[redirects]] from = "/netlify/:anything" to =
-              "https://www.google.com/search?q=:anything" status = 301 force =
-              true [[redirects]] from = "/proxy/:anything" to =
-              "https://www.google.com/search?q=:anything" status = 200 force =
-              true
+              [[redirects]] from = &quot;/netlify/:anything&quot; to =
+              &quot;https://www.google.com/search?q=:anything&quot; status = 301
+              force = true [[redirects]] from = &quot;/proxy/:anything&quot; to
+              = &quot;https://www.google.com/search?q=:anything&quot; status =
+              200 force = true
             </p>
           </div>
           <div className="mb-5">
