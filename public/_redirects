@@ -1,2 +1,0 @@
-/netlify/:anything  https://www.google.com/search?q=:anything  301
-/netlify/:anything  https://www.google.com/search?q=:anything  200!
