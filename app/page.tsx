@@ -64,7 +64,7 @@ export default function Home() {
               • Work with the development team to help design a new feature
               based on feedback from customers
             </p>
-            <p>
+            <p className="pb-2">
               • Debug a customer&apos;s build using a programming language and
               framework that you&apos;ve never seen before
             </p>
