@@ -1,9 +1,4 @@
 [[redirects]]
-from = "/*"
-to = "/index.html"
-status = 200 
-
-[[redirects]]
   from = "/netlify/:anything"
   to = "https://www.google.com/search?q=:anything"
   status = 301
@@ -14,3 +9,8 @@ status = 200
   to = "https://www.google.com/search?q=:anything"
   status = 200
   force = true
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200 

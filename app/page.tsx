@@ -193,7 +193,17 @@ export default function Home() {
               add that proxy redirect rule directly to your site!
             </p>
             <p className="text-green-500">answer:</p>
-            <p></p>
+            <p>
+              To set up the redirects, I added a netlify.toml file in the root
+              directory of my project and included the following configuration:
+            </p>
+            <p>
+              [[redirects]] from = "/netlify/:anything" to =
+              "https://www.google.com/search?q=:anything" status = 301 force =
+              true [[redirects]] from = "/proxy/:anything" to =
+              "https://www.google.com/search?q=:anything" status = 200 force =
+              true
+            </p>
           </div>
           <div className="mb-5">
             <hr className="pb-3" />
