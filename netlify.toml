@@ -10,6 +10,9 @@
   status = 200
   force = true
 
+[build]
+  functions = "netlify/functions"
+
 [[redirects]]
   from = "/*"
   to = "/index.html"

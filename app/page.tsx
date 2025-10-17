@@ -204,6 +204,16 @@ export default function Home() {
               = &quot;https://www.google.com/search?q=:anything&quot; status =
               200 force = true
             </p>
+            <p>
+              The first rule sets up an HTTP 301 redirect, which permanently
+              redirects any path starting with /netlify/ to a Google search
+              query using the captured parameter. The second rule is a proxy
+              redirect (status = 200), which serves the Google search results
+              through my site instead of sending the user&apos;s browser to
+              Google directly. I implemented this by creating a netlify.toml
+              file at the root of my Next.js project, which Netlify
+              automatically detects and applies during deployment.
+            </p>
           </div>
           <div className="mb-5">
             <hr className="pb-3" />
@@ -216,7 +226,16 @@ export default function Home() {
               attempted to troubleshoot any issues you encountered.
             </p>
             <p className="text-green-500">answer:</p>
-            <p></p>
+            <p>
+              After reading the Netlify function documentation and researching,
+              I created a netlify/functions folder and added a simple
+              &quot;Hello World&quot; function. I then updated the netlify.toml
+              file to define the functions directory. During deployment, the
+              function didn&apos;t show up at first, so I reviewed the docs
+              again, verified the folder structure, and redeployed. After that,
+              the function deployed successfully and returned the expected
+              &quot;Hello World&quot; response.
+            </p>
           </div>
           <div className="mb-5">
             <hr className="pb-3" />
