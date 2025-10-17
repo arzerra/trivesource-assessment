@@ -14,14 +14,14 @@ export default function Home() {
             </p>
             <p className="text-green-500">answer:</p>
             <p>
-              I used Next.js because even though it’s a bit more advanced than
-              plain React, it makes building and deploying websites easier. It
-              also handles routing automatically, which saved me time setting up
-              navigation between pages. One challenge I faced was getting the
+              I used Next.js because even though it&apos;s a bit more advanced
+              than plain React, it makes building and deploying websites easier.
+              It also handles routing automatically, which saved me time setting
+              up navigation between pages. One challenge I faced was getting the
               site to display properly after deployment. At first, some assets
-              weren’t loading because of incorrect file paths. I fixed this by
-              double-checking my folder structure and updating the links to use
-              relative paths, and everything worked fine after that.
+              weren&apos;t loading because of incorrect file paths. I fixed this
+              by double-checking my folder structure and updating the links to
+              use relative paths, and everything worked fine after that.
             </p>
           </div>
           <div className="mb-5">
@@ -42,7 +42,7 @@ export default function Home() {
               simple even without needing much setup. For constructive feedback,
               I think the build error messages could be a bit more detailed for
               beginners. Sometimes, the logs can be a little hard to interpret
-              if you’re not deeply familiar with the framework being used.
+              if you&apos;re not deeply familiar with the framework being used.
               Adding clearer hints or common fix suggestions would make
               troubleshooting easier.
             </p>
@@ -100,7 +100,7 @@ export default function Home() {
               beginners while also offering in-depth sections for experienced
               developers. Each concept is explained with clear examples, concise
               explanations, and interactive demos that make learning hands-on. I
-              also like how it’s written in plain language, it avoids
+              also like how it&apos;s written in plain language, it avoids
               unnecessary jargon while still being technically accurate. What
               makes it stand out is the combination of clarity, structure, and
               accessibility. The new “Learn” section guides readers through
@@ -126,7 +126,7 @@ export default function Home() {
               the wrong IP or forgetting a period at the end of a hostname can
               cause a site to break or emails to stop working. On top of that,
               DNS propagation delays can make troubleshooting difficult, since
-              changes don’t take effect immediately, leading users to think
+              changes don&apos;t take effect immediately, leading users to think
               their configuration is wrong when it may just need more time.
             </p>
             <p>
@@ -134,7 +134,7 @@ export default function Home() {
               users host their domains on one platform, their website on
               another, and email somewhere else. This creates confusion about
               where to make DNS updates or which service is controlling which
-              records. Without clear guidance, it’s easy for users to
+              records. Without clear guidance, it&apos;s easy for users to
               accidentally overwrite critical records or disconnect parts of
               their setup. Overall, the complexity of DNS terminology and the
               lack of immediate feedback make it one of the more intimidating
@@ -146,38 +146,40 @@ export default function Home() {
             <h1>Question 6</h1>
             <p>
               A customer writes in to Support saying simply that their “site
-              won’t build”. You have access to their build logs, and there you
-              see this error: Build failed due to a user error: Build script
+              won&apos;t build”. You have access to their build logs, and there
+              you see this error: Build failed due to a user error: Build script
               returned non-zero exit code: 2. You have no more information than
-              this and the site’s source repository is private so you cannot
-              test the build yourself. How would you troubleshoot this issue?
-              What steps would you take? Also, please compose your best
+              this and the site&apos;s source repository is private so you
+              cannot test the build yourself. How would you troubleshoot this
+              issue? What steps would you take? Also, please compose your best
               customer-facing first response.
             </p>
             <p className="text-green-500">answer:</p>
             <p className="pb-2">
               Since the error message indicates a non-zero exit code: 2, it
               means the build script failed, usually due to a problem in the
-              project’s code, dependencies, or configuration. My first step
+              project&apos;s code, dependencies, or configuration. My first step
               would be to check the build logs in more detail to identify which
               part of the process failed (for example, during dependency
-              installation, environment setup, or the actual build command). I’d
-              look for any stack traces, missing modules, or syntax errors.
+              installation, environment setup, or the actual build command).
+              I&apos;d look for any stack traces, missing modules, or syntax
+              errors.
             </p>
             <p className="pb-2">
-              If the logs don’t provide enough context, I’d review the site’s
-              build settings (like the build command, environment variables, and
-              framework detection) to ensure they match the project’s
-              requirements. I’d also confirm whether any recent package updates
-              or file changes could have introduced the issue. Since the
-              repository is private, I’d ask the customer to share relevant
-              parts of their build configuration or the error output locally.
+              If the logs don&apos;t provide enough context, I&apos;d review the
+              site&apos;s build settings (like the build command, environment
+              variables, and framework detection) to ensure they match the
+              project&apos;s requirements. I&apos;d also confirm whether any
+              recent package updates or file changes could have introduced the
+              issue. Since the repository is private, I&apos;d ask the customer
+              to share relevant parts of their build configuration or the error
+              output locally.
             </p>
             <p className="pb-2">
-              If needed, I’d suggest reproducing the build locally using the
-              same build command (npm run build, for instance) to see if the
-              issue occurs outside Netlify, this helps confirm whether it’s a
-              code issue or a platform issue.
+              If needed, I&apos;d suggest reproducing the build locally using
+              the same build command (npm run build, for instance) to see if the
+              issue occurs outside Netlify, this helps confirm whether it&apos;s
+              a code issue or a platform issue.
             </p>
           </div>
           <div className="mb-5">
